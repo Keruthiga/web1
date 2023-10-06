@@ -1,0 +1,115 @@
+.head-cont {
+    display: flex;
+    justify-content: space-between; /* This will push elements to the left and right edges of the container */
+    align-items: center; /* This will vertically center-align elements within the container */
+}
+
+.signupbtn, .loginbtn, .btn-home{
+    border-radius: 45px;
+    padding: 5px 20px;
+    margin-right: 5px;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    margin-right: 15px;
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-items{
+    display: flex;
+    gap: 8px;
+}
+.sellbtn{
+    border-radius: 45px;
+    padding: 5px 25px;
+    border: 1px solid rgb(85, 175, 228);
+    font-size: 14px;
+}
+.home-cont{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.home-text{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.card-img-overlay{
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    max-height: 18rem;
+    border-radius: 40px;
+
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    padding: 8px 15px;
+    background-color: white;
+    width: 550px;
+}
+
+  
+.search-icon {
+    margin-right: 5px;
+    color: #999;
+    font-size: 25px;
+}
+  
+.search-input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+}
+  
+.enter-icon {
+    margin-left: 5px;
+    color: white;
+    background-color: rgb(85, 175, 228);
+    font-size: 25px;
+    border-radius: 50%;
+}
+.btn-home{
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+.listhead{
+    display: flex;
+    justify-content: space-between;
+}
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+  
+.listimg {
+    flex: 1;
+    max-width: 18%; /* Adjust this value to control the width of each image */
+    height: 10rem;
+    border-radius: 8%;
+}
+.listicon{
+    color: #000;
+}
+  
